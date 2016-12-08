@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <title>User Login and Sessions</title>
+  <link rel="stylesheet" type="text/css" 
+      href="/static/css/styles.css" />
+</head>
+<body>
+  <div ng-controller="myController">
+  <img src="http://www.f-covers.com/cover/cute-cat-2-facebook-cover-timeline-banner-for-fb.jpg" height ="200">
+    <h2>Meow, <%= username %></h2>
+
+    <p>TOP SECRET CAT CLUB<p>
+  </div>
+  <hr>Favorite Cat Picture: <img src="<%= color %>" height="100">
+  <p>
+  <a href="/logout">logout</a>
+  <a href="/user">Edit User</a>
+  <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+  <script src="/static/js/my_app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>User Login and Sessions</title>
+  <link rel="stylesheet" type="text/css" 
+        href="/static/css/styles.css" />
+</head>
+<body>
+  <img src="http://masterpet.com/wp-content/uploads/2013/12/cat-banner.jpg" height="200">
+    <h1>Secret Cat Club</h1>
+  <div class="form-container">
+    <p class="form-header">Meow</p>
+    <form method="POST" action="/login">
+
+        <label>Username:</label>
+        <input type="text" name="username"><br>
+        <label>Password:</label>
+        <input type="password" name="password"><br>
+        <br>
+        <input type="submit" value="Meow">
+    </form>
+  </div>
+  <a href="/signup">Sign Meow Up</a>
+  <hr><%= msg %>
+</body>
+</html>

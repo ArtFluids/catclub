@@ -1,0 +1,89 @@
+
+
+div.form-container{
+  border: 4px ridge   #453a3c;
+  width: 280px;
+  margin:10px;
+  background-color: #1a1a1a;
+}
+p.form-header{
+  margin:0px;
+  font: 24px bold;
+  color:white;  background:   #453a3c;
+  text-align:center;
+}
+form{
+  margin:10px;
+  
+}
+
+label{ 
+  width:80px; display: inline-block;
+}
+
+h2 {
+  font-size: 24px;
+  text-shadow: 0px 2px #1a1a1a;
+  color:  #b6b6b6;
+}
+
+
+input
+{
+  color: black;
+  background-color: #b6b6b6;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+button, input[type=submit]
+{
+  background-color: #830808;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input:hover
+{
+  background-color:#453a3c ;
+  color: white;
+}
+
+button:active
+{
+  background-color: red;
+}
+
+input:checked {
+
+}
+
+.monster {
+
+  width: 16%;
+
+  margin: auto;
+
+  align-self: center;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  
+}
+
+div {
+  position: center;
+}
+
+body {
+  background-color:   #39648d;
+  font-family: helvetica;
+  color: white;
+}
